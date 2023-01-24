@@ -3,19 +3,34 @@
 October 21, 2022
 Version 3.0
 
-###Department of Information Technology
-###Uppsala University
+### Department of Information Technology
+### Uppsala University
 
 ### Abstract
-This document contains the instructions for the project on classification for the
-course Statistical Machine Learning, 1RT700. The problem is to classify the gender
-of the two main actors (one male, one female) in Hollywood movies. The training
-set consists of 1037 films and you will later be given a test set of 387 films. You are
-expected to (i) try some (or all) classification methods from the course and evaluate
-their performance on the problem, and (ii) make a decision which one to use and
-‘put in production’ against a test set. Your final prediction will be evaluated and
-also compared to the performances of the other student groups. You will also write
-a report about the features that accurately predict who talks most in films. You will
-document your project by writing a report, which will be reviewed anonymously
-by your peers. A very well implemented and documented project will earn you a
-‘gold star’ and a higher grade on the report.
+In this report, we present an analysis of Hollywood movies based on a given
+data set. We use multiple machine-learning methods to predict the gender of the
+lead actor based on 13 features using python programming language. Multiple
+parameters are tuned in each model to achieve the highest accuracy. The chosen
+model, deep neural networks, is then used to predict the gender of the lead actor
+from an unknown test data set.
+
+### Introduction
+There have been allegations in Hollywood of sexism and racism in movie roles, in which white men
+dominate movie roles. A motivated team gathered data from eight thousand (8,000) screenplays
+segregated into gender and age, then analyzed it to confirm the allegations [1]. In this project, we
+set out to produce machine learning models that can predict the gender of the lead role using data
+such as the year the movie was released, the number of female actors, profits made by the film,
+the number of words for each gender, among others. The algorithms used were logistic regression,
+discriminant analysis, K-nearest neighbors, random forests (tree-based methods), boosting, and deep
+neural networks. The highest-performing algorithm will be used to classify an unknown test set.
+
+### Data Pre-processing
+#### Feature Selection
+A fundamental approach to tackling supervised learning problem is feature engineering and selection.
+One way to remove noise from the data is to identify linear dependencies in the data and drop highly
+dependent features. To achieve this, we use correlation to determine the linear dependencies and then
+prune the features.
+From Fig. 4, the features "Total words", "Difference in words lead and co-lead", and "Number of
+words lead" have a high correlation. After some testing, we decided to drop the "Total words" feature.
+![alt text](https://github.com/Dna072/statistical-machine-learning/blob/master/feature_corr.png)
+
