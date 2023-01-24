@@ -2,9 +2,11 @@
 ## Do (wo)men talk too much in films? Project in Machine Learning
 October 21, 2022
 Version 3.0
-Department of Information Technology
-Uppsala University
-###Abstract
+
+###Department of Information Technology
+###Uppsala University
+
+### Abstract
 This document contains the instructions for the project on classification for the
 course Statistical Machine Learning, 1RT700. The problem is to classify the gender
 of the two main actors (one male, one female) in Hollywood movies. The training
