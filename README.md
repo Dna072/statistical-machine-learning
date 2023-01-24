@@ -32,5 +32,10 @@ dependent features. To achieve this, we use correlation to determine the linear 
 prune the features.
 From Fig. 4, the features "Total words", "Difference in words lead and co-lead", and "Number of
 words lead" have a high correlation. After some testing, we decided to drop the "Total words" feature.
-![alt text](https://github.com/Dna072/statistical-machine-learning/blob/master/feature_corr.png)
+![Hello](https://github.com/Dna072/statistical-machine-learning/blob/master/feature_corr.png)
+
+#### Feature Scaling
+Features may have varying values, affecting how well the model learns from the data. Using
+StandardScaler from sklearn, we scale the training data points to help the model understand and learn
+from the training data.
 
