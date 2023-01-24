@@ -89,3 +89,5 @@ closest to k or pick one of the classes.
  * metrics = [’minkowski’, ’manhattan’, ’euclidean’]: For each value of k and weights, run the metrics used for the distance calculation between point.. In essence, it tries the different distance calculation methods and returns the best one that minimizes the error in the classification.
 
 Each cross-validation fold uses the same approach, increasing the overall train time.
+
+[a link](https://github.com/Dna072/statistical-machine-learning/blob/master/SML_Project.pdf "Click here to view the full report")
