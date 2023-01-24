@@ -90,4 +90,4 @@ closest to k or pick one of the classes.
 
 Each cross-validation fold uses the same approach, increasing the overall train time.
 
-[a link](https://github.com/Dna072/statistical-machine-learning/blob/master/SML_Project.pdf "Click here to view the full report")
+[Click here to view the full report](https://github.com/Dna072/statistical-machine-learning/blob/master/SML_Project.pdf)
