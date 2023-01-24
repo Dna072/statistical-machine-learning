@@ -1,0 +1,17 @@
+(1)
+- Some comments about part 2 of the data analysis: in your graph I think you should normalize the male-female difference each year, for example by dividing the difference by the number of movies that year, otherwise the steep rise until the 90s can be explained by that there is a steep rise in movies made, therefore conclusions about the gender balance can not be made with the current figure. Also are we supposed to look at the gender balance in ”leading roles” or in ”speaking roles”?
+- Increase the font size of the labels on the plots to make reading and understanding them slightly easier
+
+
+(2)
+- Include or compare methods to the naive classifier
+- The descriptions, especially for logistic regression, could be more detailed to allow a better understanding of the model’s background
+- Most descriptions are kinda short and not clearly explained. Boosting is explained in a not fully understandable way and none of the three chosen boosting methods are explained at all
+- The grammar and spelling of the text are good, with some minor errors for example in lines 105 and 107
+
+
+(3)
+- Make the evaluation results more clear by specifying if accuracy is given on the training or the validation set
+- Separate sections for methods, results and conclusions
+- A discussion of the other methods explored and not used ‘in production’ could be added
+-  Good arguments for model choice, but should have included a boxplot of the cross-validation to visualize the high variance of Extreme Gradient Boosting in comparison to DNN for example, which is one of your arguments for choosing DNN. (table 1 could maybe be switched for this boxplot?)
